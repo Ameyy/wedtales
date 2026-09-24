@@ -1,0 +1,6 @@
+{
+  "name": "ATELIER LUMEN — Photography & Product Studio",
+  "description": "Minimal, classy modern portfolio for product and editorial photographers featuring scroll-driven animations, visual galleries, lighting breakdowns, and commissioned works.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

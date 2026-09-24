@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-cinzel: "Cinzel", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+  --font-mono: "JetBrains Mono", monospace;
+  --color-canvas: #FAF6F0;
+  --color-surface: #FFFFFF;
+  --color-surface-muted: #F4EFE6;
+  --color-royal-maroon: #50111B;
+  --color-royal-wine: #3E0C14;
+  --color-marigold: #D49B35;
+  --color-border-hairline: rgba(0, 0, 0, 0.08);
+}
+
+:root {
+  color-scheme: light;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: #FAF6F0;
+  color: #1A1615;
+  letter-spacing: -0.01em;
+}
+
+/* Editorial & Royal typography utilities */
+.font-cinzel {
+  font-family: "Cinzel", Georgia, serif;
+}
+
+.font-serif {
+  font-family: "Cormorant Garamond", Georgia, serif;
+}
+
+.font-sans {
+  font-family: "Plus Jakarta Sans", system-ui, -apple-system, sans-serif;
+}
+
+.font-mono {
+  font-family: "JetBrains Mono", monospace;
+}
+
+/* Smooth image zoom transition */
+.image-zoom-container {
+  overflow: hidden;
+}
+
+.image-zoom-container img {
+  transition: transform 0.8s cubic-bezier(0.16, 1, 0.3, 1), filter 0.6s ease;
+}
+
+.image-zoom-container:hover img {
+  transform: scale(1.035);
+}
+
+/* Subtle luxury paper & linen texture */
+.bg-subtle-paper {
+  background-image: radial-gradient(rgba(0, 0, 0, 0.035) 1px, transparent 0);
+  background-size: 24px 24px;
+}
+
